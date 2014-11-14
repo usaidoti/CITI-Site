@@ -260,16 +260,16 @@ color:#2d2d2d
 
 .container_colone {
     float:left;
-    width:40%;
+    width:33%;
     height:100%;
     font-size: 24px;
-text-align: left;
+text-align: center;
 color:#E06F72;
    
     }
 .container_coltwo {
     float:left;
-    width:20%;
+    width:33%;
     height:100%;
     text-align: center;
 font-size: 24px;
@@ -277,9 +277,9 @@ color:#E7A17A
     }
 .container_colthree {
     float:right;
-    width:40%;
+    width:33%;
     height:100%;
-text-align: left;
+text-align: center;
 font-size: 24px;
 color:#E4B17D
     }
