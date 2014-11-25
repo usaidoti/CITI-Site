@@ -216,11 +216,7 @@ var flagIcon = L.icon({
     shadowAnchor: [3, 24],  // the same for the shadow
     popupAnchor:  [9, -18] // point from which the popup should open relative to the iconAnchor
 });
-var circle = L.circle({
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5
-});
+ 
 
 
 		var map = L.map('map').setView([7.505, -5.09], 6);
@@ -240,8 +236,7 @@ var circle = L.circle({
 			.bindPopup("<b>Daloa</b>, West Office<br />In this region, CITI supports activities that 1) assist government at all levels to (re)establish accountable state authority; 2) enable government-community dialogues to improve understanding between local authorities and local populations; and 3) encourage communities and civil society organizations to solve local problems that are beyond the responsibility or capacity of government.");
 		L.marker([7.6899, -5.02831],{icon: flagIcon}).addTo(map)
 			.bindPopup("<b>Bouake</b>, North Office<br />In this region, CITI supports activities that 1) assist government at all levels to (re)establish accountable state authority; 2) enable government-community dialogues to improve understanding between local authorities and local populations; and 3) encourage communities and civil society organizations to solve local problems that are beyond the responsibility or capacity of government..");
-		L.circle([7.6899, -5.02831]).addTo(map)
-			.bindPopup("<b>Bouake</b>, North Office<br />In this region, CITI supports activities that 1) assist government at all levels to (re)establish accountable state authority; 2) enable government-community dialogues to improve understanding between local authorities and local populations; and 3) encourage communities and civil society organizations to solve local problems that are beyond the responsibility or capacity of government..");
+		var circle = L.circle([7.508, -6.11], 500, {color: 'red', fillColor: '#f03', fillOpacity: 0.5}).addTo(map).bindPopup("<b>Bouake</b>, North Office<br />In this region, CITI supports activities that 1) assist government at all levels to (re)establish accountable state authority; 2) enable government-community dialogues to improve understanding between local authorities and local populations; and 3) encourage communities and civil society organizations to solve local problems that are beyond the responsibility or capacity of government..");
 		
 
 		map.on('click', onMapClick);
