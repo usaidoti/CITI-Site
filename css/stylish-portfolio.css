@@ -162,6 +162,9 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 min-width: 1000px;
+h1 {
+    font-size: 40px;
+}
 
 }
 
