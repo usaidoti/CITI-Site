@@ -165,7 +165,9 @@ min-width: 1000px;
 h1 {
     font-size: 80px;
 }
-
+h3 {
+    font-size: 40px;
+}
 }
 
 .cluster {
