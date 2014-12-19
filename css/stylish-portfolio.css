@@ -19,15 +19,19 @@ background-color: #FFF;
 
 }
  
- html{font-size: 10px;}
+ html{font-size: 8px;}
  
  @media screen and (min-width: 500px){
+  html{
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width: 600px){
   html{
     font-size: 12px;
 }
 }
-
-
 
  @media screen and (min-width: 800px){
   html{
