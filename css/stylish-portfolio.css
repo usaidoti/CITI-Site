@@ -295,6 +295,23 @@ text-align: center;
 font-size: 24px;
 color:#E4B17D
     }
+    
+    .modal_colone {
+    float:left;
+    width:50%;
+    height:100%;
+text-align: center;
+color:#E4B17D;
+   
+    }
+ 
+.modal_coltwo {
+    float:right;
+    width:50%;
+    height:100%;
+text-align: center;
+color:#E4B17D
+    }
  
 
 /* Callout */
