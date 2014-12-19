@@ -15,6 +15,12 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 background-color: #FFF;
+h1 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 40px;
+}
 }
 
 .text-vertical-center {
@@ -162,12 +168,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 min-width: 1000px;
-h1 {
-    font-size: 80px;
-}
-h3 {
-    font-size: 40px;
-}
+
 }
 
 .cluster {
