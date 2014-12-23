@@ -21,7 +21,7 @@ background-color: #FFF;
  
  html{font-size: 8px;}
  
- @media screen and (min-width: 500px){
+@media (max-width: 600px) {
   html{
     font-size: 10px;
 }
