@@ -280,6 +280,20 @@ color:#2d2d2d
 
 
 }
+.map {
+      display: table;
+    position: relative;
+    width: 100%;
+    background-color: #F4F4F4;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+color:#2d2d2d
+
+
+}
 
 /* fader */
 
