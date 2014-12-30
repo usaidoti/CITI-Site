@@ -404,7 +404,12 @@ background-color: #302C49;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/CdiviolenceAP.jpg) no-repeat center center scroll;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/CdiviolenceAP.jpg) no-repeat center center scroll;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
