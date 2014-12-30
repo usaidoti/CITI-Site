@@ -195,7 +195,14 @@ var flagIcon = L.icon({
  
 
 
-		var map = L.map('map').setView([7.505, -5.09], 6);
+		var map = L.map('map', {
+ maxBounds: [
+    //south west
+    [-85.07815906717186, -179.97802734374997],
+    //north east
+    [-60.413852350464914, 39.8583984375]
+]
+}).setView([-72.5, -110], 1);
 
 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 9, minZoom: 6,
