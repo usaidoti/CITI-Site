@@ -194,16 +194,14 @@ var flagIcon = L.icon({
 });
  
 
-		var southWest = L.latLng(0, -14),
-    northEast = L.latLng(15, 5),
-    bounds = L.latLngBounds(southWest, northEast);
+	
     
 		var map = L.map('map').setView([7.505, -5.3], 6);
 
 
 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 9, minZoom: 6,
-			 maxBounds: bounds,
+			
 			 
 			 
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
