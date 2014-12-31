@@ -227,7 +227,7 @@ hr.small {
     linear-gradient(
       rgba(0, 0, 0, 0.7), 
       rgba(0, 0, 0, 0.4)
-    ),url(../img/soldiers.jpg) no-repeat center center scroll;
+    ),url(../img/soldiers_out.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
