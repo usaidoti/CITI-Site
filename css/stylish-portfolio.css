@@ -225,8 +225,8 @@ hr.small {
     height: 100%;
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.4)
     ),url(../img/soldiers.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -411,8 +411,8 @@ background-color: #302C49;
     height: 100%;
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.9), 
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.3)
     ),
     url(../img/wrist.jpg) no-repeat center center scroll;
 
