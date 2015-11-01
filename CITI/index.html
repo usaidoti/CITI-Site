@@ -182,7 +182,7 @@
 
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script>
-
+L.mapbox.accessToken = 'pk.eyJ1Ijoic251cmh1c3MiLCJhIjoiY2lnZnF4NmcyODRwdXY4bHVpOXhrcWtjaiJ9.plUztIlgbk0DBJf6uA_yzA';
 var flagIcon = L.icon({
     iconUrl: 'img/flag.png',
     shadowUrl: 'img/flag_shadow.png',
@@ -205,7 +205,7 @@ var flagIcon = L.icon({
 ]
 }).setView([7.5, -5.3], 6);
 
-		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+		L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
 			maxZoom: 9, minZoom: 6,
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
